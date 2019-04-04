@@ -189,6 +189,11 @@ nav a {
     border-style: groove;
 }
 
+.themiddle {
+    box-sizing: border-box;
+    width: 500px;
+}
+
 /*
 main div img {
     padding: 10px
