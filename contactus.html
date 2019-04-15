@@ -59,6 +59,9 @@
     </header>
 
     <main>
+        <p class="contacttitle">
+        Follow Us!
+        </p>
         <br>
         <div>
             <a style="color: #ffffff"><img src="images/facebookicon.png" alt="facebook" height="25">: Omicron Beta AKAs</a>
@@ -69,11 +72,11 @@
         <div>
             <a href="https://www.twitter.com/omicronbetaakas" target="_blank"><img src="images/twittericon.png" alt="twitter" height="25"></a><a style="color: #ffffff">: @omicronbetaakas</a>
         </div>
-        <!--
+        
         <div>
             <a href="mailto:omicronbeta86@gmail.com"><img src="images/emailicon.png" alt="email" height="25"></a><a style="color: #ffffff">: omicronbeta86@gmail.com</a>
         </div>
--->
+
         <br>
         <h3 class="headingsandlinks">For those intersted in pursuing membership...</h3>
 
@@ -84,16 +87,53 @@
         <div>
 
             <form>
+                <p class="formtitle">
+                Keep in touch!
+                </p>
 
-                <label for="name">Name</label>
+                <p>
+                <label for="name">Name: </label>
                 <input type="text" name="name" id="name">
-                <label for="name">Institution</label>
-                <input type="text" name="school" id="school">
-                <label for="org">Organization Affiliation (only required for sponsorship requests) </label>
+                </p>
+                
+                <p>
+                <label for="email">E-mail: </label>
+                <input type="text" name="email" id="email">
+            </p>
+                
+                <div>
+                <label for="school">Institution: </label>
+                    <br>
+                    <div class="regularformwords">
+                <input type="radio" name="school" value="UR" class="regularformwords" checked>University of Rochester
+                <br>
+                <input type="radio" name="school" value="RIT">Rochester Institute of Technology
+                <br>
+                <input type="radio" name="school" value="Naz">Nazareth College
+                <br>
+                <input type="radio" name="school" value="SJFC">St. John Fisher College
+                <br>
+                <input type="radio" name="school" value="other">Other (specify in message below)
+                        </div>
+            </div>
+                <br>
+                <label for="org">Organization Affiliation (only required for sponsorship requests): </label>
                 <input type="text" name="org" id="org">
+                
+                <p>
+                Message: 
+                    <br>
+                <label for="message"></label>
+                <textarea name="message" id="message" rows="4" cols="40"></textarea>
+            </p>
+                
+                <p>
+                <label></label>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </p>
 
             </form>
-
         </div>
     </main>
     <br>

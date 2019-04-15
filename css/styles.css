@@ -199,3 +199,36 @@ main div img {
     padding: 10px
         just want the gallery page?
 }*/
+
+
+.contacttitle {
+    font-family:cursive;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #f29ab1;
+    font-size: 40px;
+    margin: 10px 0px 0px 0px;
+}
+
+main div form {
+    box-sizing: border-box;
+    width: 750px;
+    background-color: #f29ab1;
+    padding: 10px;
+    font-family:cursive;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #86e662;border: 10px solid #86e662;
+    border-radius: 10px;
+    border-style: groove;
+    padding-left: 20px;
+}
+
+.regularformwords {
+    font-family: serif;
+    color: #ffffff;
+    text-shadow: 0px 0px 0px
+}
+
+.formtitle {
+    font-size: 30px;
+    margin: 0px;
+}
